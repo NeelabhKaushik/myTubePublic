@@ -19,7 +19,7 @@ const SearchBar = () => {
       component="form"
       onSubmit={handelSubmit}
       sx={{
-        borderRadius: 20,
+        borderRadius: 10,
         border: "1px solid #e3e3e3",
         pl: 2,
         boxShadow: "none",
@@ -34,7 +34,11 @@ const SearchBar = () => {
           setSearchTerm(e.target.value);
         }}
       />
-      <IconButton type="submit" sx={{ p: "10px", color: "purple" }}>
+      <IconButton
+        type="submit"
+        sx={{ p: "10px", color: "blue" }}
+        aria-label="search"
+      >
         <Search></Search>
       </IconButton>
     </Paper>

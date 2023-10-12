@@ -33,11 +33,11 @@ export const categories = [
   { name: "Crypto", icon: <DeveloperModeIcon /> },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
+export const demoThumbnailUrl = "https://i.ibb.co/3s1Pjcz/Me-to-API-provider.png";
 export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
+export const demoVideoUrl = "/video/jJPMnTXl63E&list=PLpeiyhszkGHp_3hXt4PlJdirkQd-y5pCb&index=3";
+export const demoChannelTitle = "Neelabh Kaushik";
 export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+  "This is demoVideoTitle. I dont know why this is not working. Please forgive me.";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";

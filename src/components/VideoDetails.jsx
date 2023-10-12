@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import CheckCircle from "@mui/icons-material/CheckCircle";
 
 import { Video, Loader } from "./";
-import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI"; 
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -37,7 +37,7 @@ const VideoDetail = () => {
               <Link to={`/channel/${channelId}`}>
                 <Typography variant={{ sm: "subtitle1", md: 'h6' }}  color="#fff" >
                   {channelTitle}
-                  <CheckCircleIcon sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
+                  <CheckCircle sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
                 </Typography>
               </Link>
               <Stack direction="row" gap="20px" alignItems="center">
