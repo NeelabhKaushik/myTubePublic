@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">MyTube</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://i.ibb.co/Q9BdSh0/logo-Background-Removed.png" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">MyTube is a distraction-free content-focused video platform built with React and Material UI featuring handpicked channels and tags for an enhanced viewing experience.</p>
 
-In the project directory, you can run:
+<h2>🚀 Demo</h2>
 
-### `npm start`
+[https://neelabhkaushik-mytube.vercel.app/](https://neelabhkaushik-mytube.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Project Screenshots:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://i.ibb.co/3YVQ00P/Mac-Book-Pro-1697082322869.jpg" alt="project-screenshot" width="400" height="400/">
 
-### `npm test`
+<img src="https://i.ibb.co/TBmRxZ0/Screen-Shot-2023-10-13-at-12-08-12-AM.png" alt="project-screenshot" width="400" height="400/">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+  
+<h2>🧐 Features</h2>
 
-### `npm run build`
+Here're some of the project's best features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   Distraction-Free Interface: MyTube offers an ad-free and comment-free viewing experience allowing users to focus solely on the content.
+*   Curated Content: The platform showcases handpicked important channels and tags on the homepage ensuring users have easy access to quality content.
+*   Responsive Design: MyTube is designed with Material UI ensuring a visually appealing and user-friendly interface across various devices.
+*   No Ads: MyTube is entirely ad-free ensuring uninterrupted video playback.
+*   User Profiles: Users can create profiles to track their video history bookmark favorite content and manage subscriptions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>🛠️ Installation Steps:</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>1. Installing Dependencies</p>
 
-### `npm run eject`
+```
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>2. Genrate your own api from Rapid API and paste in .env</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>3. Running on localHost</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>4. Open on your browser</p>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+http://localhost:3000/
+```
